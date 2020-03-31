@@ -13,6 +13,8 @@
 		C44C41F62432F0C300ABC0F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C41F42432F0C300ABC0F8 /* Main.storyboard */; };
 		C44C41F82432F0C900ABC0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C41F72432F0C900ABC0F8 /* Assets.xcassets */; };
 		C44C41FB2432F0C900ABC0F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C41F92432F0C900ABC0F8 /* LaunchScreen.storyboard */; };
+		C44C420F24331B1B00ABC0F8 /* StrippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C420E24331B1B00ABC0F8 /* StrippedView.swift */; };
+		C44C421124331B3300ABC0F8 /* StrippedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44C421024331B3300ABC0F8 /* StrippedView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C44C41F72432F0C900ABC0F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44C41FA2432F0C900ABC0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44C41FC2432F0CA00ABC0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44C420E24331B1B00ABC0F8 /* StrippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrippedView.swift; sourceTree = "<group>"; };
+		C44C421024331B3300ABC0F8 /* StrippedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrippedView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C44C41F72432F0C900ABC0F8 /* Assets.xcassets */,
 				C44C41F92432F0C900ABC0F8 /* LaunchScreen.storyboard */,
 				C44C41FC2432F0CA00ABC0F8 /* Info.plist */,
+				C44C420E24331B1B00ABC0F8 /* StrippedView.swift */,
+				C44C421024331B3300ABC0F8 /* StrippedView.xib */,
 			);
 			path = "Stripped View";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				C44C41FB2432F0C900ABC0F8 /* LaunchScreen.storyboard in Resources */,
 				C44C41F82432F0C900ABC0F8 /* Assets.xcassets in Resources */,
 				C44C41F62432F0C300ABC0F8 /* Main.storyboard in Resources */,
+				C44C421124331B3300ABC0F8 /* StrippedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				C44C41F32432F0C300ABC0F8 /* ViewController.swift in Sources */,
 				C44C41EF2432F0C300ABC0F8 /* AppDelegate.swift in Sources */,
 				C44C41F12432F0C300ABC0F8 /* SceneDelegate.swift in Sources */,
+				C44C420F24331B1B00ABC0F8 /* StrippedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
